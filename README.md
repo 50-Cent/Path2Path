@@ -1,7 +1,9 @@
 # Path2Path
 Basu, Saurav, Barry Condron, and Scott T. Acton. "Path2Path: Hierarchical path-based analysis for neuron matching." Biomedical Imaging: From Nano to Macro, 2011 IEEE International Symposium on. IEEE, 2011.
-The script is written in Matlab 2017a. The python version will be uploaded shortly. 
-The code takes a filepath as input, where the .swc files of neurons from Neuromorpho.org are stored inside 
+The script is written in Matlab 2017a. The python version will be uploaded shortly.
+There are several function files. To execute the code, the user is requested to use the mainUser.m file.
+
+The mainUser.m takes a filepath as input, where the .swc files of neurons from Neuromorpho.org are stored inside 
 different folders under a directory named neuron_nmo. A sample input as the filepath is 
 "C:\Users\..\..\..\..\Path2Path_Basu\sampleData\neuron_nmo". The number of .swc files are prompted in the Matlab Command Window.
 >> Total number of neurons in the file :->17
